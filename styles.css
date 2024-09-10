@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.small-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.small-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 200px; /* Ajusta el tamaño de la tarjeta aquí */
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.small-card img {
+    width: 150px; /* Ajusta el tamaño de la imagen aquí */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.small-card h3 {
+    font-size: 1.4em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.small-card p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.small-card a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.small-card a:hover {
+    background-color: #ff3f31;
+}
+
+.small-card:hover {
+    transform: translateY(-5px);
+}
